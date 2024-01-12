@@ -1,4 +1,7 @@
-class Person {
+//After a class is created we can export this class to any other file 
+// for export we need to use module.export
+
+module.exports = class Person {
     age = 26
 
     get Location(){   //-------->this is called a property
